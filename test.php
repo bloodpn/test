@@ -46,7 +46,7 @@
 			var a = parseInt($('#first').val());
 			var b = parseInt($('#second').val());
 
-			if( a <= b) {
+			if( a < b) {
 				var a = a + 4;
 				var b = b - 4;
 				$('#first_res').val(a);
