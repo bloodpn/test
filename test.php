@@ -37,9 +37,6 @@
 				$('#first_result').val(a);
 				$('#second_result').val(b);
 			}
-			if (b > a) {
-
-			}
 				
 		});	
 		$(document).ready(function() {
@@ -51,9 +48,6 @@
 				var b = b - 4;
 				$('#first_res').val(a);
 				$('#second_res').val(b);
-			}
-			if (b > a) {
-
 			}
 				
 		});	
